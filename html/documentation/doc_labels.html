@@ -1,0 +1,19 @@
+<html lang="ru">
+<head>
+@@include("../parts/doc/head.html")
+</head>
+<body>
+	@@include("../parts/doc/header.html")
+	<div class="dt-container dt-container_flex">
+		@@include("../parts/doc/navbar.html")
+
+		<div class="dt-content dt-content_scroll-bar-yes">
+			<h3 id="labels">Labels</h3>				
+			@@include("../parts/labels.html",{"show_code": "true"})
+			<h3>Labels sizing</h3>
+			@@include("../parts/labels_sizing.html",{"show_code": "true"})
+		</div>
+	</div>
+	<script src="js/app.js"></script>
+</body>
+</html>

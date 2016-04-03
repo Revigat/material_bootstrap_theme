@@ -1,0 +1,44 @@
+@import '../../node_modules/devlib/themes/blue_doc/css/blue_theme.less';
+@import '../../node_modules/devlib/blocks/code_example/code_example.less';
+@import '../../node_modules/devlib/helpers/css/mixins/flexbox.less';
+
+.main-container__section{
+	.flexbox();
+	.align_items(center);
+	padding-bottom: 20px;
+}
+
+.main-container__column{
+	margin-top: 2vw;
+	margin-right: 2%;
+}
+
+pre, pre .code-example{
+	font-size: 11px;
+}
+
+.example_code{
+	margin: 35px 0;
+	text-align: left;
+	
+	.close{
+		float: none;
+		font-size: 12px;
+		font-weight: 300;
+		opacity: 1;
+	}
+}
+
+@media screen and (max-width: 900px){
+	.example_code{
+		display: none;
+	}
+}
+
+
+.navbar__link{
+	
+	&:hover{
+		text-decoration: none;
+	}
+}

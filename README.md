@@ -3,7 +3,7 @@ This theme is a skin for Bootstrap, which means that can be used with any site b
 This skin is based on a material design and also extends the styles directly applied to Bootstrap files. There’s no overwritten rules or bloating CSS, making a lightweight skin as Boostrap is itself. 
 
 ## Browsers
-IE9+, Opera, Safari, Yandex browser, Chrome, Firefox, Mobile Safari, Android
+IE10+, Opera, Safari, Yandex browser, Chrome, Firefox, Mobile Safari, Android
 
 ## Demo
 http://stas-melnikov.ru/material_bootstrap_theme/
@@ -13,5 +13,6 @@ If you liked this theme, please donate to me on <a href="https://www.paypal.me/m
 
 ##Commercial license
 If you want to use theme to develop commercial sites, themes, projects, and applications, the Commercial license is the appropriate license. With this option, your source code is kept proprietary. If you need the commercial license, please send the message on my mail - melnik909@ya.ru
+
 ##Open source license
 If you are creating an open source application under a license compatible with the MIT, you may use theme under the terms of the MIT.

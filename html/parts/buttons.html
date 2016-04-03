@@ -1,0 +1,21 @@
+	<button class="btn material-btn @@if (show_code === "false") {main-container__column}">Button</button>
+	<button class="btn material-btn material-btn_primary @@if (show_code === "false") {main-container__column}">Button</button>
+	<button class="btn material-btn material-btn_success @@if (show_code === "false") {main-container__column}">Button</button>
+	<button class="btn material-btn material-btn_info @@if (show_code === "false") {main-container__column}">Button</button>
+	<button class="btn material-btn material-btn_warning @@if (show_code === "false") {main-container__column}">Button</button>
+	<button class="btn material-btn material-btn_danger @@if (show_code === "false") {main-container__column}">Button</button>
+	@@if (show_code === "true") {
+	<div class="highlight example_code">
+		<pre>
+			<code class="language-html" data-lang="html">
+&lt;button class="btn material-btn"&gt;Button&lt;/button&gt;
+&lt;button class="btn material-btn material-btn_primary"&gt;Button&lt;/button&gt;
+&lt;button class="btn material-btn material-btn_success"&gt;Button&lt;/button&gt;
+&lt;button class="btn material-btn material-btn_info"&gt;Button&lt;/button&gt;
+&lt;button class="btn material-btn material-btn_warning"&gt;Button&lt;/button&gt;
+&lt;button class="btn material-btn material-btn_danger"&gt;Button&lt;/button&gt;
+
+			</code>
+		</pre>
+	</div>
+	}

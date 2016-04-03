@@ -1,0 +1,20 @@
+<html lang="ru">
+<head>
+@@include("../parts/doc/head.html")
+</head>
+<body>
+	@@include("../parts/doc/header.html")
+	<div class="dt-container dt-container_flex">
+		@@include("../parts/doc/navbar.html")
+
+		<div class="dt-content dt-content_scroll-bar-yes">
+			<h3 id="inputs">Inputs</h3>
+			@@include("../parts/inputs.html",{"show_code": "true"})
+			
+			<h3 id="inputs_animated_state">Inputs animated state</h3>
+			@@include("../parts/inputs_animated.html",{"show_code": "true"})
+		</div>
+	</div>
+	<script src="js/app.js"></script>
+</body>
+</html>

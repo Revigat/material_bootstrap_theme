@@ -1,0 +1,21 @@
+		<span class="badge material-badge @@if (show_code === "false") {main-container__column}">10</span>
+		<span class="badge material-badge material-badge_primary @@if (show_code === "false") {main-container__column}">10</span>
+		<span class="badge material-badge material-badge_success @@if (show_code === "false") {main-container__column}">9</span>
+		<span class="badge material-badge material-badge_info @@if (show_code === "false") {main-container__column}">8</span>
+		<span class="badge material-badge material-badge_danger @@if (show_code === "false") {main-container__column}">7</span>
+		<span class="badge material-badge material-badge_warning @@if (show_code === "false") {main-container__column}">6</span>
+
+		@@if (show_code === "true") {
+		<div class="highlight example_code">
+			<pre>
+				<code class="language-html" data-lang="html">
+&lt;span class="badge material-badge"&gt;10&lt;/span&gt;
+&lt;span class="badge material-badge material-badge_primary"&gt;10&lt;/span&gt;
+&lt;span class="badge material-badge material-badge_success"&gt;9&lt;/span&gt;
+&lt;span class="badge material-badge material-badge_info"&gt;8&lt;/span&gt;
+&lt;span class="badge material-badge material-badge_danger"&gt;7&lt;/span&gt;
+&lt;span class="badge material-badge material-badge_warning"&gt;6&lt;/span&gt;
+				</code>
+			</pre>
+		</div>
+		}

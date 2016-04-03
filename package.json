@@ -1,0 +1,30 @@
+{
+  "name": "material_bootstrap_theme",
+  "version": "1.1.0",
+  "description": "This theme is a skin for Bootstrap, which means that can be used with any site built with the Bootstrap framework 3. With easy installation and customization thanks to the LESS/SASS files included and the custom themes colors ready to use. \r This skin is based on a material design and also extends the styles directly applied to Bootstrap files. There’s no overwritten rules or bloating CSS, making a lightweight skin as Boostrap is itself.",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://melnik909@github.com/melnik909/material_bootstrap_theme.git"
+  },
+  "author": "Stas Melnikov http://stas-melnikov.ru",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/melnik909/material_bootstrap_theme/issues"
+  },
+  "homepage": "https://github.com/melnik909/material_bootstrap_theme#readme",
+  "devDependencies": {
+    "devlib": "^0.2.37",
+    "gulp": "^3.9.1",
+    "gulp-file-include": "^0.13.7",
+    "gulp-html-minifier": "^0.1.8",
+    "gulp-rename": "^1.2.2",
+    "gulp-watch": "^4.3.5"
+  }
+}

@@ -1,0 +1,1 @@
+!function(){function t(){for(var t,n=0,i=e.length;i>n;n++)t=document.createElement("script"),t.src=e[n].src,t.async=e[n].async,document.body.appendChild(t)}var e=[{src:"//yastatic.net/share/share.js",async:!0},{src:"../../metrika.js",async:!0}];e.length;window.addEventListener("load",t)}();

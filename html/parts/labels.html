@@ -1,0 +1,20 @@
+		<span class="label label-default material-label @@if (show_code === "false") {main-container__column}">Default</span>
+		<span class="label label-primary material-label material-label_primary @@if (show_code === "false") {main-container__column}">Primary</span>
+		<span class="label label-success material-label material-label_success @@if (show_code === "false") {main-container__column}">Success</span>
+		<span class="label label-info material-label material-label_info @@if (show_code === "false") {main-container__column}">Info</span>
+		<span class="label label-warning material-label material-label_warning @@if (show_code === "false") {main-container__column}">Warning</span>
+		<span class="label label-danger material-label material-label_danger @@if (show_code === "false") {main-container__column}">Danger</span>
+		@@if (show_code === "true") {
+		<div class="highlight example_code">
+			<pre>
+				<code class="language-html" data-lang="html">
+&lt;span class="label label-default material-labe"&gt;Default&lt;/span&gt;
+&lt;span class="label label-primary material-label material-label_primary"&gt;Primary&lt;/span&gt;
+&lt;span class="label label-success material-label material-label_success"&gt;Success&lt;/span&gt;
+&lt;span class="label label-info material-label material-label_info"&gt;Info&lt;/span&gt;
+&lt;span class="label label-warning material-label material-label_warning"&gt;Warning&lt;/span&gt;
+&lt;span class="label label-danger material-label material-label_danger"&gt;Danger&lt;/span&gt;	
+				</code>
+			</pre>
+		</div>
+		}
