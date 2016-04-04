@@ -18,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/melnik909/material_bootstrap_theme/issues"
   },
-  "homepage": "https://github.com/melnik909/material_bootstrap_theme#readme",
+  "homepage": "http://stas-melnikov.ru/material_bootstrap_theme/",
   "devDependencies": {
     "devlib": "^0.2.37",
     "gulp": "^3.9.1",
