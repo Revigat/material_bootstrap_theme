@@ -1,7 +1,7 @@
 {
   "name": "material_bootstrap_theme",
   "version": "1.1.0",
-  "description": "This theme is a skin for Bootstrap, which means that can be used with any site built with the Bootstrap framework 3. With easy installation and customization thanks to the LESS/SASS files included and the custom themes colors ready to use. \r This skin is based on a material design and also extends the styles directly applied to Bootstrap files. There’s no overwritten rules or bloating CSS, making a lightweight skin as Boostrap is itself.",
+  "description": "This theme is a skin for Bootstrap, which means that can be used with any site built with the Bootstrap framework 3.",
   "main": "index.js",
   "directories": {
     "doc": "doc"
