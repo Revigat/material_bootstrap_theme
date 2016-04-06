@@ -24,13 +24,17 @@
     ".gitignore",
     "gulpfile.js",
     "package.json",
+    "README.html",
     "bower_components",
     "test",
     "tests"
   ],
   "keywords": [
     "bootstrap",
-    "material_theme"
+    "material design",
+    "less bootstrap",
+    "scss bootstrap"
   ],
-  "version": "1.1.1"
+  "version": "1.1.1",
+  "dependencies": {}
 }
