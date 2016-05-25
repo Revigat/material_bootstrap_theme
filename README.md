@@ -12,8 +12,8 @@ $ bower install material_bootstrap_theme
 ## Browsers
 IE10+, Opera, Safari, Yandex browser, Chrome, Firefox, Mobile Safari, Android
 
-### Help the project
-If you liked this theme, please donate to me on <a href="https://www.paypal.me/melnik909" target="blank">PayPal</a> or contact me. Thanks!
+### [Donate](https://www.paypal.me/melnik909)
+If you liked this theme, please donate to me on [PayPal](https://www.paypal.me/melnik909). Thanks!
 
 ### License
 MIT.
