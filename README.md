@@ -8,6 +8,14 @@ This skin is based on a material design and also extends the styles directly app
 ```sh
 $ bower install material_bootstrap_theme 
 ```
+## Getting started
+
+Include following files in head section
+
+```sh
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/material_theme.css">
+```
 
 ## Browsers
 IE10+, Opera, Safari, Yandex browser, Chrome, Firefox, Mobile Safari, Android
